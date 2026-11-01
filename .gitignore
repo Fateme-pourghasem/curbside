@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Credentials - never commit these
+*.json.key
+service-account*.json
+credentials.json
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local data
+*.parquet
+*.csv.gz
+
+# ADK / agents-cli
+.adk/
+.frontend-build/
+.google-agents-cli/
+.agents-cli-scripts/
+deployment_metadata.json.lock
+deployment_metadata.dev.json
+deployment_metadata.curbside.json
+.saved_chats
+.pytest_cache/
+.ruff_cache/
+.ty/
+.coverage
+htmlcov/
+
+# Credentials and private keys
+*.pem
+*-key.json
